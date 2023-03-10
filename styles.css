@@ -1,0 +1,181 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    padding: 1em;
+    background-color: #ffffff;
+    position: relative;
+}
+
+ul li {
+    display: inline-block;
+}
+
+nav a {
+    color: black;
+    padding-right: 2em;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    margin-right: auto;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+  
+nav a:hover::before {
+    transform: scaleX(1);
+}
+
+nav {
+    text-align: center;
+}
+
+hr.underline {
+    border-top: 3px solid black;
+    margin: 0 570px;
+}
+.first {
+    position: absolute;
+    width: auto;
+}
+
+.intro {
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: auto;
+    z-index: 2;
+    padding: 0 0 0 5em;
+    margin: -510px 0 0 0;
+}
+
+.first img {
+    width: 100%;
+}
+
+.test {
+    color: white;
+    margin-bottom: 45px;
+}
+
+#center {
+    text-align: center;
+    margin-bottom: 7px; 
+}
+
+p center {
+    text-align: center;
+    margin-bottom: 7px; 
+}
+
+.float-child {
+    width: 20%;
+    float: left;
+}
+
+.service1 {
+    margin: 80px auto 150px auto;
+    width: 70%;
+    padding-top: 1px;
+}
+.service1 img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.service2 {
+    margin: 150px auto;
+    width: 70%;
+    padding-top: 1px;
+}
+.service2 img {
+    width: 20%;
+    float: right;
+    margin-right: 30px;
+}
+
+.service3 {
+    margin: 150px auto;
+    width: 70%;
+    padding-top: 1px;
+}
+.service3 img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.service4 {
+    margin: 150px auto;
+    width: 70%;
+    padding-top: 1px;
+}
+.service4 img {
+    width: 20%;
+    float: right;
+    margin-right: 30px;
+}
+
+.button1 {
+    font-size: 15px;
+    padding: 10px 25px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid rgb(100, 233, 151);
+    transition-duration: 0.4s;
+}
+
+.button1:hover {
+    font-size: 15px;
+    padding: 10px 25px;
+    color: black;
+    background-color: rgb(100, 233, 151);
+}
+
+hr.divider {
+    border-top: 1px solid rgb(188, 188, 188);
+    margin: 0 150px;
+}
+
+.button2 {
+    font-size: 15px;
+    padding: 10px 25px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid rgb(100, 233, 151);
+    transition-duration: 0.4s;
+    float: right;
+    margin-top: 15px;
+}
+
+.button2:hover {
+    font-size: 15px;
+    padding: 10px 25px;
+    color: black;
+    background-color: rgb(100, 233, 151);
+}
+
+.contact {
+    background-color: rgb(234, 251, 234);
+padding: 35px 70px;
+}
